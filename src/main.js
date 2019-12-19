@@ -2,6 +2,7 @@
 import 'bootstrap3/dist/css/bootstrap.min.css';
 
 // Bootstrap JS
+import 'bootstrap3/js/carousel';
 import 'bootstrap3/js/collapse';
 import 'bootstrap3/js/dropdown';
 
