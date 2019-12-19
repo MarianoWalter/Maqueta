@@ -1,18 +1,23 @@
 <template>
-	<div id="app" class="container-fluid">
-
+	<div id="app">
+		<Header
+			:visible="true"
+			:titulo="'Maqueta'"
+		></Header>
+		<!-- TODO Carrusel -->
+		<!-- TODO Lista de Productos -->
+		<!-- TODO Banner -->
+		<!-- TODO Footer -->
 	</div>
 </template>
 
 <script>
+import Header from './components/Header.vue';
+
 export default {
 	name: 'app',
-	components: {},
+	components: {
+		Header,
+	},
 };
 </script>
-
-<style>
-#app {
-
-}
-</style>
