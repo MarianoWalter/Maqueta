@@ -39,7 +39,7 @@
 				textoChico="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos illum voluptates atque molestiae, debitis, obcaecati magnam."
 			></Banner>
 
-			<!-- TODO Footer -->
+			<Footer></Footer>
 		</div>
 
 	</div>
@@ -50,6 +50,7 @@ import Header from './components/Header.vue';
 import Carousel from './components/Carousel.vue';
 import ListaProductos from './components/ListaProductos.vue';
 import Banner from './components/Banner.vue';
+import Footer from './components/Footer.vue';
 
 export default {
 	name: 'app',
@@ -58,6 +59,7 @@ export default {
 		Carousel,
 		ListaProductos,
 		Banner,
+		Footer,
 	},
 };
 </script>
