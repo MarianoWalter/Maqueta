@@ -34,8 +34,11 @@
 				]"
 			></ListaProductos>
 
-			<!-- TODO Lista de Productos -->
-			<!-- TODO Banner -->
+			<Banner
+				textoGrande="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quo tempora nostrum ab minima possimus."
+				textoChico="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos illum voluptates atque molestiae, debitis, obcaecati magnam."
+			></Banner>
+
 			<!-- TODO Footer -->
 		</div>
 
@@ -46,6 +49,7 @@
 import Header from './components/Header.vue';
 import Carousel from './components/Carousel.vue';
 import ListaProductos from './components/ListaProductos.vue';
+import Banner from './components/Banner.vue';
 
 export default {
 	name: 'app',
@@ -53,6 +57,7 @@ export default {
 		Header,
 		Carousel,
 		ListaProductos,
+		Banner,
 	},
 };
 </script>
