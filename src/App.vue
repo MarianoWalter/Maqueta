@@ -17,6 +17,23 @@
 				]"
 			></Carousel>
 
+			<ListaProductos
+				:productos="[
+					{
+						nombre: 'Producto 1',
+						descripcion: 'Descripción del producto 1 para pruebas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum voluptatum ad placeat accusamus vel, iusto possimus, atque quas deserunt minima necessitatibus eligendi aperiam dolor, a incidunt voluptates magnam illo ipsa.',
+					},
+					{
+						nombre: 'Producto 2',
+						descripcion: 'Descripción del producto 2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt assumenda, fuga dolore tempora repellendus quos adipisci ab ipsum, tempore amet suscipit cumque consequatur sunt incidunt dolores magni illo distinctio asperiores.',
+					},
+					{
+						nombre: 'Producto 3',
+						descripcion: 'Descripción del producto 3. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, cupiditate expedita. Veniam, quidem unde? Esse placeat sint minus a fugit voluptates repellat ipsum praesentium non ut assumenda nisi, maxime quos.',
+					},
+				]"
+			></ListaProductos>
+
 			<!-- TODO Lista de Productos -->
 			<!-- TODO Banner -->
 			<!-- TODO Footer -->
@@ -28,12 +45,14 @@
 <script>
 import Header from './components/Header.vue';
 import Carousel from './components/Carousel.vue';
+import ListaProductos from './components/ListaProductos.vue';
 
 export default {
 	name: 'app',
 	components: {
 		Header,
 		Carousel,
+		ListaProductos,
 	},
 };
 </script>
