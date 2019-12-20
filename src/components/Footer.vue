@@ -4,18 +4,30 @@
 		<div class="row">
 			<div class="footer-col col-xs-12 col-sm-4">
 				<b>Nosotros</b>
-				<div>Inicio</div>
-				<div>Quiénes somos</div>
+				<div>
+					<a href="#">Inicio</a>
+				</div>
+				<div>
+					<a href="#">Quiénes somos</a>
+				</div>
 			</div>
 			<div class="footer-col col-xs-12 col-sm-4">
 				<b>Nuestra Empresa</b>
-				<div>Nosotros</div>
-				<div>Partners</div>
+				<div>
+					<a href="#">Nosotros</a>
+				</div>
+				<div>
+					<a href="#">Partners</a>
+				</div>
 			</div>
 			<div class="footer-col col-xs-12 col-sm-4">
 				<b>Support</b>
-				<div>Apoyo Técnico</div>
-				<div>Aplicación de Turnos</div>
+				<div>
+					<a href="#">Apoyo Técnico</a>
+				</div>
+				<div>
+					<a href="#">Aplicación de Turnos</a>
+				</div>
 			</div>
 		</div>
 
@@ -40,6 +52,11 @@ footer {
 footer .footer-col {
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+footer .footer-col a {
+	/* text-decoration: none; */
+	color: inherit;
 }
 
 .row {

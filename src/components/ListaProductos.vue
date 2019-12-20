@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h3 class="text-center">Productos:</h3>
+		<h3 class="text-center">Productos</h3>
 
 		<br>
 
@@ -11,7 +11,9 @@
 				:key="index"
 				style="margin-bottom: 20px"
 			>
-				<ItemProducto :producto="producto" ></ItemProducto>
+				<a href="#" class="link-sin-estilo">
+					<ItemProducto :producto="producto" ></ItemProducto>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -33,3 +35,10 @@ export default {
 	},
 };
 </script>
+
+<style scoped>
+.link-sin-estilo {
+	color: inherit;
+	text-decoration: none;
+}
+</style>

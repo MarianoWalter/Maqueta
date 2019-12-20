@@ -2,7 +2,7 @@
 	<div id="app">
 
 		<Header
-			:visible="true"
+			:titulo-visible="false"
 			:titulo="'Maqueta'"
 		></Header>
 
@@ -21,7 +21,7 @@
 				:productos="[
 					{
 						nombre: 'Producto 1',
-						descripcion: 'Descripción del producto 1 para pruebas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum voluptatum ad placeat accusamus vel, iusto possimus, atque quas deserunt minima necessitatibus eligendi aperiam dolor, a incidunt voluptates magnam illo ipsa.',
+						descripcion: 'Descripción del producto 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum voluptatum ad placeat accusamus vel, iusto possimus, atque quas deserunt minima necessitatibus eligendi aperiam dolor, a incidunt voluptates magnam illo ipsa.',
 					},
 					{
 						nombre: 'Producto 2',
@@ -63,3 +63,13 @@ export default {
 	},
 };
 </script>
+
+<style>
+/* Estilo para que el footer quede al final de la página */
+/* TODO terminar */
+/* html {
+	position: relative;
+	min-height: 100%;
+	height: auto;
+} */
+</style>
